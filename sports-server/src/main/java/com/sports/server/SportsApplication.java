@@ -1,13 +1,12 @@
-package com.sports;
+package com.sports.server;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SportsServerApplication {
-
+public class SportsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SportsServerApplication.class, args);
+        SpringApplication.run(SportsApplication.class,args);
     }
-
 }
